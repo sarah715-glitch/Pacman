@@ -167,8 +167,8 @@ int main()
 
 	int pts = 0;
 
-	printf("Instruction:\n1. Arrow Keys to move your hero\n2. Eat the dots produced by the Eater to gain poins\n3. Don't get caught by the Eater\n\n");
-	printf("H -> Hard\nN -> Normal\nE -> Easy\n\nInput : ");
+	printf("Instructions:\n1. Use Arrow Keys to move your character\n2. Eat the dots produced by the Eater to gain points\n3. Don't get caught by the Eater\n\n");
+	printf("H -> Hard\nN -> Normal\nE -> Easy\n\nInput: ");
 
 	char diffi;
 	int speedmod = 3;
@@ -242,7 +242,8 @@ int main()
 	}
 
 	system("cls");
-	printf("You Lose and your score is : %i", pts );
+	printf("You Lose!");
+	printf("Your score: %i", pts );
 	cin.get();
 	cin.get();
 	cin.get();
